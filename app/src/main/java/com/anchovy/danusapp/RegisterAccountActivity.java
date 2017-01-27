@@ -27,8 +27,8 @@ public class RegisterAccountActivity extends AppCompatActivity {
         Intent loginIntent = LineLoginApi.getLoginIntentWithoutLineAppAuth(this.getBaseContext(), CHANNEL_ID);
         startActivityForResult(loginIntent, REQUEST_CODE);
 
-        npmInput = (EditText) findViewById(R.id.npm_register_form);
-        passwordInput = (EditText) findViewById(R.id.password_register_form);
+        //npmInput = (EditText) findViewById(R.id.npm_register_form);
+        //passwordInput = (EditText) findViewById(R.id.password_register_form);
 
         databaseReference = FirebaseDatabase.getInstance().getReference().child("Users");
     }

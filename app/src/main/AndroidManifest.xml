@@ -31,8 +31,8 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".RegisterAccountActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".RegisterAccountActivity" />
     </application>
 
 </manifest>

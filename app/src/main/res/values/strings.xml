@@ -21,4 +21,9 @@
     </string>
     <string name="action_register_in_short">Register</string>
     <string name="login_with_line_text">Login with line</string>
+    <string name="npm_text">NPM</string>
+    <string name="password_text">Password</string>
+    <string name="logout_text">Logout</string>
+    <string name="username_text">Username :</string>
+    <string name="display_message_text">Display Message :</string>
 </resources>
