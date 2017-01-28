@@ -30,6 +30,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.linecorp.linesdk.api.LineApiClient;
+import com.linecorp.linesdk.api.LineApiClientBuilder;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,9 +50,12 @@ public class MainActivity extends AppCompatActivity {
      */
     private ViewPager mViewPager;
 
+    private static LineApiClient lineApiClient;
+
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener firebaseAuthListener;
     private DatabaseReference databaseReference, databaseUser;
+    private static final String CHANNEL_ID = "1498109142";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +89,9 @@ public class MainActivity extends AppCompatActivity {
 
         databaseReference = FirebaseDatabase.getInstance().getReference();
         databaseUser = databaseReference.child("Users");
+
+        LineApiClientBuilder apiClientBuilder = new LineApiClientBuilder(getApplicationContext(), CHANNEL_ID);
+        lineApiClient = apiClientBuilder.build();
     }
 
     @Override

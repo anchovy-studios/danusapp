@@ -5,25 +5,25 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_login">Masuk</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">NPM</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This NPM is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect or you haven\'t make an account yet</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
+    <string name="action_sign_in_short">Masuk</string>
+    <string name="error_invalid_email">NPM tidak benar</string>
+    <string name="error_invalid_password">Password terlalu sedikit</string>
+    <string name="error_incorrect_password">Password salah atau belum membuat account</string>
+    <string name="error_field_required">Wajib diisi</string>
+    <string name="permission_rationale">"Diperlukan ijin untuk melihat kontak agar proses selesai."
     </string>
-    <string name="action_register_in_short">Register</string>
-    <string name="login_with_line_text">Login with line</string>
+    <string name="action_register_in_short">Daftar</string>
+    <string name="login_with_line_text">Masuk dengan LINE</string>
     <string name="npm_text">NPM</string>
     <string name="password_text">Password</string>
-    <string name="logout_text">Logout</string>
+    <string name="logout_text">Keluar</string>
     <string name="username_text">Username :</string>
     <string name="display_message_text">Display Message :</string>
+    <string name="display_picture_text">Display Picture</string>
 </resources>

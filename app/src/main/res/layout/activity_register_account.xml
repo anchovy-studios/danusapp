@@ -8,14 +8,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".RegisterAccountActivity">
 
-    <ImageButton
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/image_button_dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp" />
-
     <EditText
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -24,8 +16,8 @@
         android:layout_below="@+id/image_button_dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/username_line_edit"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="25dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
 
     <EditText
         android:layout_width="250dp"
@@ -35,7 +27,7 @@
         android:layout_below="@+id/username_line_edit"
         android:layout_centerHorizontal="true"
         android:id="@+id/display_message_line_edit"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="15dp"/>
 
     <Button
         android:text="@string/action_register_in_short"
@@ -44,7 +36,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/register_button_line"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="0dp"
+        android:onClick="registerAccountClicked"/>
 
     <EditText
         android:textAlignment="center"
@@ -89,5 +82,15 @@
         android:layout_below="@+id/username_line_edit"
         android:layout_alignLeft="@+id/username_text"
         android:layout_alignStart="@+id/username_text" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/image_button_dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/display_picture_text"
+        android:scaleType="fitCenter"
+        android:onClick="dpImageButtonClicked"/>
 
 </RelativeLayout>

@@ -38,6 +38,8 @@ dependencies {
     compile 'com.firebaseui:firebase-ui-database:0.5.0'
     compile(name:'line-sdk-4.0.0', ext:'aar')
     compile 'com.android.support:customtabs:25.1.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.theartofdev.edmodo:android-image-cropper:2.3.1'
     testCompile 'junit:junit:4.12'
 }
 
