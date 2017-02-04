@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchovy.danusapp.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:hint="@string/npm_text"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:maxLines="1"
+        android:inputType="number"
+        android:id="@+id/npm_input_register_frag"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:hint="@string/prompt_password"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:id="@+id/password_input_register_frag"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:id="@+id/credential_input_register_frag"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:id="@+id/credential_radio_group">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/line_text"
+            android:padding="15dp"
+            android:id="@+id/line_radio_button"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_hp_text"
+            android:padding="15dp"
+            android:id="@+id/handphone_radio_button"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:text="@string/action_register_in_short"
+        android:id="@+id/register_button_register_frag"/>
+
+</FrameLayout>

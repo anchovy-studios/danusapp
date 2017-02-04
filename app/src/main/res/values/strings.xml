@@ -9,7 +9,7 @@
 
     <!-- Strings related to login -->
     <string name="prompt_email">NPM</string>
-    <string name="prompt_password">Password</string>
+    <string name="prompt_password">KATA SANDI</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Masuk</string>
     <string name="error_invalid_email">NPM tidak benar</string>
@@ -26,4 +26,6 @@
     <string name="username_text">Username :</string>
     <string name="display_message_text">Display Message :</string>
     <string name="display_picture_text">Display Picture</string>
+    <string name="line_text">LINE</string>
+    <string name="no_hp_text">NO. HP</string>
 </resources>
